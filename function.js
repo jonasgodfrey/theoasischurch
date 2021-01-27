@@ -131,7 +131,7 @@ function downloadBadge(){
   //auto dowload the image
   tmp.then(function(canvas){
     canvas.toBlob(function(blob){
-      saveAs(blob, "my-butGod-badge.jpg");
+      saveAs(blob, "my-OasisInvite-badge.jpg");
     });
   });
 }//downloadBadge
